@@ -16,6 +16,8 @@ vim.keymap.set('n', '<leader>sd', ':vsplit<CR>')
 vim.keymap.set('n', '<leader>x', ':BufferLinePickClose<CR>')
 vim.keymap.set('n', '<leader>X', ':BufferLineCloseRight<CR>')
 vim.keymap.set('n', '<leader>s', ':BufferLineSortByTabs<CR>')
+vim.keymap.set('n', '<leader>=', ':vertical resize +10<CR>')
+vim.keymap.set('n', '<leader>-', ':vertical resize -10<CR>')
 
 -- Tabs
 vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
