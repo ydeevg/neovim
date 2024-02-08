@@ -6,7 +6,8 @@ vim.keymap.set('n', '<leader>o', ':Neotree float git_status<CR>')
 vim.keymap.set('n', '<leader>r', ':Neotree left focus<CR>')
 
 -- Navigation
-vim.keymap.set('n', '<leader>/', ':CommentToggle<CR>')
+vim.keymap.set('n', '<C-/>', ':CommentToggle<CR>')
+vim.keymap.set('v', '<C-/>', ':CommentToggle<CR>')
 
 -- Other
 vim.keymap.set('n', '<leader>w', ':w<CR>')
