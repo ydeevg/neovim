@@ -23,7 +23,7 @@ require("lazy").setup({
     }
   },                                                                            -- Просмотр древа файлов
   { 'nvim-treesitter/nvim-treesitter' },                                        -- парсер синтаксического древа файла
-  {'neovim/nvim-lspconfig'},                                                    -- подсветка синтаксиса
+  {'neovim/nvim-lspconfig'},                                                  -- подсветка синтаксиса
   {'hrsh7th/cmp-nvim-lsp'}, {'hrsh7th/cmp-buffer'}, {'hrsh7th/cmp-path'},       -- 
   {'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'}, {'lewis6991/gitsigns.nvim'},   -- автодополнения
   {'joshdick/onedark.vim'}, {'rebelot/kanagawa.nvim'},                          -- тема
@@ -31,4 +31,6 @@ require("lazy").setup({
   {'akinsho/toggleterm.nvim', version = "*", config = true},                    -- терминал
   {'terrortylor/nvim-comment'},                                                 -- автокомменты
   {"akinsho/bufferline.nvim", dependencies = {'nvim-tree/nvim-web-devicons'}},  -- вкладки открытых файлов
+  {'hrsh7th/vim-vsnip'},
+  {'hrsh7th/vim-vsnip-integ'},
 })

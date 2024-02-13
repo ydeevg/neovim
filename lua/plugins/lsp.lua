@@ -8,6 +8,10 @@ lspconfig.prismals.setup {}
 lspconfig.cssls.setup {
     capabilities = capabilities
 }
+lspconfig.fortls.setup {
+    cmd = {'/home/ydeevg/.local/share/nvim/mason/bin/fortls'},
+    root_dir = lspconfig.util.root_pattern(".fortls"),
+} 
 lspconfig.golangci_lint_ls.setup {}
 lspconfig.rust_analyzer.setup {
   settings = {
