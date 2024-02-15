@@ -27,4 +27,5 @@ F4, F5, F6 - скаканье по ошибкам
 ```
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip && unzip JetBrainsMono.zip -d ~/.fonts && fc-cache -fv
 ```
-Выбрать в настройках терминала нужный шрифт 
+Выбрать в настройках терминала нужный шрифт
+todo: добавить что-то вроде CTRL+D как в vscode 

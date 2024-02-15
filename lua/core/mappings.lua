@@ -11,6 +11,7 @@ vim.keymap.set('v', '<C-/>', ':CommentToggle<CR>')
 
 -- Other
 vim.keymap.set('n', '<leader>w', ':w<CR>')
+vim.keymap.set('n', '<leader>wa', ':wa<CR>')
 vim.keymap.set('n', '<leader>qq', ':q!<CR>')
 vim.keymap.set('n', '<leader>sd', ':vsplit<CR>')
 vim.keymap.set('n', '<leader>x', ':BufferLinePickClose<CR>')
